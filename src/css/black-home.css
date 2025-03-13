@@ -210,5 +210,9 @@ main .como-jugar .tittle-2 h2{
     font-family: "RobotoCondensed-Regular";
 }
 .sobre-nosotros button{
+    font-size: 80px;
+    color: aliceblue;
+    background-color: transparent;
+    border: none;
     margin-left: 37px;
 }
