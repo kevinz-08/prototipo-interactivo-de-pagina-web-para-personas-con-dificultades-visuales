@@ -1,0 +1,65 @@
+@import url(variables.css);
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: var(--color-1);
+}
+
+header .box-aqua{
+    background-color:var(--color-2);
+    width: 300px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: -80px;
+    display: flex;
+    gap: 5px;
+    font-family: "RobotoCondensed-Regular";
+    font-size: 40px;
+    font-weight: 200;
+    border-radius: 48px;
+    align-items: center;
+    justify-content: flex-end;
+}
+header .box-aqua img{
+    width: 25px;
+    margin-right: 40px;
+}
+header .sections{
+    display: flex;
+    width: 820px;
+    margin-top: -35px;
+    margin-left: 300px;
+    gap: 80px;
+}
+header .sections a{
+    text-decoration: none;
+    color: var(--color-2);
+    font-family: "RobotoCondensed-Bold";
+    font-size: 24px;
+}
+header .theme{
+    margin-left: 1210px;
+    margin-top: -25px;
+    width: 100px;
+}
+header .theme img{
+    width: 25px;
+}
+header .theme {
+    display: flex;
+    gap: 10px;
+}
+#inicio{
+    background-color:bisque;
+    display: flex;
+}
+main .tittle-1{
+    width: 600px;
+    height: 350px;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: blue;
+}
