@@ -191,3 +191,24 @@ main .como-jugar .tittle-2 h2{
     font-size: 36px;
     font-family: "RobotoCondensed-Bold";
 }
+
+.sobre-nosotros{
+    margin-top: 212px;
+    display: flex;
+    flex-direction: row;
+    color: var(--color-2);
+    margin-left: 142px;
+}
+.sobre-nosotros h1{
+    font-size: 72px;
+}
+.sobre-nosotros p{
+    margin-top: 83px;
+    width: 751px;
+    height: 184px;
+    font-size: 36px;
+    font-family: "RobotoCondensed-Regular";
+}
+.sobre-nosotros button{
+    margin-left: 37px;
+}
